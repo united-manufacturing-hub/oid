@@ -9,7 +9,7 @@ If you want to contribute to this repository make sure to set up our githooks:
 git config core.hooksPath .githooks
 ```
 
-Make sure to always git tag your changes. We use [semantic versioning](https://semver.org/).
+Make sure to always git tag your code changes. We use [semantic versioning](https://semver.org/).
 
 ## Contributing
 
