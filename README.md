@@ -8,3 +8,5 @@ If you want to contribute to this repository make sure to set up our githooks:
 ```bash
 git config core.hooksPath .githooks
 ```
+
+Make sure to always git tag your changes. We use [semantic versioning](https://semver.org/).

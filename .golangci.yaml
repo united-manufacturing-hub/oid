@@ -26,6 +26,7 @@ linters-settings:
       - crypto/**/*
       - testing
       - github.com/stretchr/testify/assert
+      - oid/**/*
       
   errcheck:
     # Report about not checking of errors in type assertions: `a := b.(MyStruct)`.
