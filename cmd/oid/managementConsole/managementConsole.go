@@ -1,6 +1,6 @@
 package managementConsole
 
-import oid "oid/cmd"
+import "github.com/united-manufacturing-hub/oid/cmd/oid"
 
 const (
 	id = 100
