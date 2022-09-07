@@ -1,0 +1,1 @@
+Copyright (c) 2022, UMH Systems GmbH All rights reserved.
