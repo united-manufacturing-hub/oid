@@ -41,5 +41,5 @@ RFC 2119.
     1. Any such deletion or modification **[must](https://datatracker.ietf.org/doc/html/rfc2119#section-1)** are shown within the commit history
 6. Registrations and marking of modifications & deletions to the Development Intermediate OID Sub OID are **[optional](https://datatracker.ietf.org/doc/html/rfc2119#section-5)**
 7. All OIDs **[must](https://datatracker.ietf.org/doc/html/rfc2119#section-1)**, except for the development OID, be implemented in this repository.
-8. OIDs without sub-OID **[must](https://datatracker.ietf.org/doc/html/rfc2119#section-1)** be implemented as a single file, with the name of the OID as prefix.
+8. OIDs without sub-OID **[must](https://datatracker.ietf.org/doc/html/rfc2119#section-1)** be implemented as a single file or as a directory, with the name of the OID as prefix.
 9. OIDs with sub-OID **[must](https://datatracker.ietf.org/doc/html/rfc2119#section-1)** be implemented as a directory, with the name of the OID as prefix.
