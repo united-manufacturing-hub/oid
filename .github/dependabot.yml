@@ -1,0 +1,14 @@
+version: 2
+updates:
+  - directory: /.github/workflows
+    package-ecosystem: github-actions
+    schedule:
+      interval: daily
+
+  - directory: /cmd
+    labels:
+      - 'lang: go'
+    package-ecosystem: gomod
+    schedule:
+      interval: daily
+    target-branch: main

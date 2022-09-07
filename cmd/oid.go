@@ -10,28 +10,3 @@ func GetIanaRoot() []int {
 func GetUMHPen() []int {
 	return umhPen[:]
 }
-
-func ConcatCopyPreAllocate(slices [][]int) []int {
-	var totalLen int
-	for _, s := range slices {
-		totalLen += len(s)
-	}
-	tmp := make([]int, totalLen)
-	var i int
-	for _, s := range slices {
-		i += copy(tmp[i:], s)
-	}
-	return tmp
-}
-
-func SliceEqual[T comparable](a, b []T) bool {
-	if len(a) != len(b) {
-		return false
-	}
-	for i, v := range a {
-		if v != b[i] {
-			return false
-		}
-	}
-	return true
-}
