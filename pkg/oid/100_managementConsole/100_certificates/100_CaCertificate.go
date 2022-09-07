@@ -1,7 +1,7 @@
 package certificates
 
 import (
-	"github.com/united-manufacturing-hub/oid/cmd/oid"
+	"github.com/united-manufacturing-hub/oid/pkg/oid"
 )
 
 const (
