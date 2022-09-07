@@ -1,4 +1,4 @@
-package certificates
+package tui
 
 import (
 	"github.com/united-manufacturing-hub/oid/cmd/oid"
