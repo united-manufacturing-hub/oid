@@ -9,5 +9,5 @@ const (
 )
 
 func GetTechCertificateAsn10id() []int {
-	return oid.ConcatCopyPreAllocate([][]int{GetMgmtConsoleCertificateAsn10id(), {techCertificateId}})
+	return oid.MergeSlices([][]int{GetMgmtConsoleCertificateAsn10id(), {techCertificateId}})
 }

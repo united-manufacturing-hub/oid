@@ -2,7 +2,7 @@ package oid
 
 import "crypto/x509/pkix"
 
-func ConcatCopyPreAllocate(slices [][]int) []int {
+func MergeSlices(slices [][]int) []int {
 	var totalLen int
 	for _, s := range slices {
 		totalLen += len(s)
@@ -22,4 +22,3 @@ func ToPkixExtension(oid []int, critical bool, value []byte) pkix.Extension {
 		Value:    value,
 	}
 }
-

@@ -9,7 +9,7 @@ const (
 )
 
 func GetDeviceCertificateAsn10id() []int {
-	return oid.ConcatCopyPreAllocate(
+	return oid.MergeSlices(
 		[][]int{
 			GetMgmtConsoleCertificateAsn10id(),
 			{deviceCertificateId}})

@@ -10,5 +10,5 @@ const (
 )
 
 func GetMgmtConsoleCertificateAsn10id() []int {
-	return oid.ConcatCopyPreAllocate([][]int{managementConsole.GetMgmtConsoleAsn10id(), {id}})
+	return oid.MergeSlices([][]int{managementConsole.GetMgmtConsoleAsn10id(), {id}})
 }

@@ -7,5 +7,5 @@ const (
 )
 
 func GetMgmtConsoleAsn10id() []int {
-	return oid.ConcatCopyPreAllocate([][]int{oid.GetIanaRoot(), oid.GetUMHPen(), {id}})
+	return oid.MergeSlices([][]int{oid.GetIanaRoot(), oid.GetUMHPen(), {id}})
 }
